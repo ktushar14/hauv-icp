@@ -4,10 +4,11 @@ This repository is for testing the three ICP variants for the hauv-slam project,
 ### What is this repository for? 
 
 * Implementing 2D-ICP, point-to-plane ICP, and point-to-plane ICP with an added odometry prior
+(Written for a specific project, no guarantees of running independently)
  
 ### How do I get set up? ###
 * To download datasets, run the files in "scripts":
-
+(not currently present in repo)
 ```
 ./download_dataset_shiphull.sh
 ./download_dataset_cube.sh
@@ -30,8 +31,3 @@ make
 * -o	: 	point-to-plane ICP with odometry prior
 * -p	: 	point-to-plane ICP 
 * -t  	: 	2D ICP
-
-### Who do I talk to? ###
-
-* Tushar Kusnur
-* kusnur.tushar@gmail.com
